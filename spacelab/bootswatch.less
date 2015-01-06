@@ -135,3 +135,43 @@
     }
   }
 }
+
+// Morea customizations =========================================================
+
+// Changed badge-bg in variables.less
+
+body {
+  padding-top: 60px;  /* Move body of page below navbar. */
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: @brand-primary;
+}
+
+body, footer, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+
+}
+
+.footer-background {
+  //background-color: lighten(@brand-primary, 25%);
+  .btn-shadow(@navbar-default-bg);
+  background-color: @navbar-default-bg;
+}
+
+.page-footer {
+  color: darken(@text-color, 20%);
+  padding: 10px;
+  text-align: center;
+}
+
+.section-background-1 {
+  background-color: lighten(@brand-primary, 50%);
+}
+
+.section-background-2 {
+  background-color: @body-bg;
+}
+
+.white-background {
+  background-color: #FFF;
+}

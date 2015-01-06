@@ -123,3 +123,51 @@
     color: #fff;
   }
 }
+
+// Morea customizations =========================================================
+
+// Changed brand-primary in variables.less.
+
+// Try making coming soon button look better, but bottom edge does not display correctly.
+//@btn-default-border:  @brand-primary;
+
+body {
+  padding-top: 60px;  /* Move body of page below navbar. */
+}
+
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:normal,italic,bold");
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: @brand-primary;
+}
+
+body, footer, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Open Sans";
+}
+
+.footer-background {
+  .btn-shadow(@navbar-default-bg);
+  background-color: @brand-primary;
+}
+
+.page-footer {
+  color: @navbar-default-brand-color;
+  padding: 10px;
+  text-align: center;
+}
+
+.page-footer a {
+  color: darken(@navbar-inverse-link-color, 20%);
+}
+
+.section-background-1 {
+  background-color: lighten(@brand-primary, 40%);
+}
+
+.section-background-2 {
+  background-color: @body-bg;
+}
+
+.white-background {
+  background-color: #FFF;
+}

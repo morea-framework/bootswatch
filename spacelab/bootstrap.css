@@ -2,7 +2,7 @@
 /*!
  * bootswatch v3.3.1+2
  * Homepage: http://bootswatch.com
- * Copyright 2012-2014 Thomas Park
+ * Copyright 2012-2015 Thomas Park
  * Licensed under MIT
  * Based on Bootstrap
 */
@@ -4583,7 +4583,7 @@ a.label:focus {
   vertical-align: baseline;
   white-space: nowrap;
   text-align: center;
-  background-color: #3399f3;
+  background-color: #446e9b;
   border-radius: 10px;
 }
 .badge:empty {
@@ -6523,4 +6523,48 @@ button.close {
 }
 .panel-primary .panel-title {
   color: #fff;
+}
+body {
+  padding-top: 60px;
+  /* Move body of page below navbar. */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: #446e9b;
+}
+.footer-background {
+  background-image: -webkit-linear-gradient(#ffffff, #eeeeee 50%, #e4e4e4);
+  background-image: -o-linear-gradient(#ffffff, #eeeeee 50%, #e4e4e4);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(50%, #eeeeee), to(#e4e4e4));
+  background-image: linear-gradient(#ffffff, #eeeeee 50%, #e4e4e4);
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe4e4e4', GradientType=0);
+  -webkit-filter: none;
+          filter: none;
+  border: 1px solid #d5d5d5;
+  background-color: #eeeeee;
+}
+.page-footer {
+  color: #333333;
+  padding: 10px;
+  text-align: center;
+}
+.section-background-1 {
+  background-color: #e9eff5;
+}
+.section-background-2 {
+  background-color: #ffffff;
+}
+.white-background {
+  background-color: #FFF;
 }

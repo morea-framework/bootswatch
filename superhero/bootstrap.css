@@ -2,7 +2,7 @@
 /*!
  * bootswatch v3.3.1+2
  * Homepage: http://bootswatch.com
- * Copyright 2012-2014 Thomas Park
+ * Copyright 2012-2015 Thomas Park
  * Licensed under MIT
  * Based on Bootstrap
 */
@@ -2802,7 +2802,7 @@ fieldset[disabled] .btn {
 }
 .btn-default {
   color: #ffffff;
-  background-color: #4e5d6c;
+  background-color: #5bc0de;
   border-color: transparent;
 }
 .btn-default:hover,
@@ -2812,7 +2812,7 @@ fieldset[disabled] .btn {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: #ffffff;
-  background-color: #39444e;
+  background-color: #31b0d5;
   border-color: rgba(0, 0, 0, 0);
 }
 .btn-default:active,
@@ -2838,11 +2838,11 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-  background-color: #4e5d6c;
+  background-color: #5bc0de;
   border-color: transparent;
 }
 .btn-default .badge {
-  color: #4e5d6c;
+  color: #5bc0de;
   background-color: #ffffff;
 }
 .btn-primary {
@@ -3566,7 +3566,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   line-height: 1;
   color: #2b3e50;
   text-align: center;
-  background-color: #4e5d6c;
+  background-color: #5bc0de;
   border: 1px solid transparent;
   border-radius: 0;
 }
@@ -4582,7 +4582,7 @@ a.label:focus {
   vertical-align: baseline;
   white-space: nowrap;
   text-align: center;
-  background-color: #4e5d6c;
+  background-color: #843e0f;
   border-radius: 10px;
 }
 .badge:empty {
@@ -6337,7 +6337,7 @@ button.close {
   font-weight: 300;
 }
 .btn-default:hover {
-  background-color: #485563;
+  background-color: #4ebbdb;
 }
 .btn-sm,
 .btn-xs {
@@ -6549,4 +6549,39 @@ a.list-group-item-danger.active:focus {
 }
 .popover-title {
   border: none;
+}
+body {
+  padding-top: 60px;
+  /* Move body of page below navbar. */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: #df691a;
+}
+.footer-background {
+  background-color: #843e0f;
+}
+.page-footer {
+  color: #ebebeb;
+  padding: 10px;
+  text-align: center;
+}
+.section-background-1 {
+  background-color: #344b61;
+}
+.section-background-2 {
+  background-color: #2b3e50;
+}
+.white-background {
+  background-color: #FFF;
 }

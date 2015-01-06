@@ -2,7 +2,7 @@
 /*!
  * bootswatch v3.3.1+2
  * Homepage: http://bootswatch.com
- * Copyright 2012-2014 Thomas Park
+ * Copyright 2012-2015 Thomas Park
  * Licensed under MIT
  * Based on Bootstrap
 */
@@ -6580,4 +6580,42 @@ a.list-group-item-danger.active:focus {
 }
 .panel-default > .panel-heading {
   background-color: #464545;
+}
+body {
+  padding-top: 60px;
+  /* Move body of page below navbar. */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: #4673a3;
+}
+.footer-background {
+  background-color: #28415b;
+}
+.page-footer {
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+.page-footer a {
+  color: #ffffff;
+}
+.section-background-1 {
+  background-color: #375a7f;
+}
+.section-background-2 {
+  background-color: #222222;
+}
+.white-background {
+  background-color: #FFF;
 }
