@@ -6412,8 +6412,9 @@ h6,
   color: #eb6864;
 }
 .footer-background {
-  background-color: #f19491;
+  background-color: #fcecec;
   border-top: 1px solid #eb6864;
+  border-bottom: 1px solid #eb6864;
 }
 .page-footer {
   color: #000000;
@@ -6434,7 +6435,18 @@ h6,
 }
 .navbar-default .navbar-brand:hover {
   color: #eb6864;
+  border-bottom: 1px solid #eb6864;
 }
 .morea-img-hover:hover {
   border: 1px solid #eb6864;
+}
+.thumbnail {
+  border: 2px solid #dddddd;
+}
+a.thumbnail:hover {
+  background: #f2f2f2;
+  text-decoration: none;
+}
+a.thumbnail {
+  color: #777777;
 }

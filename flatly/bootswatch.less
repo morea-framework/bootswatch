@@ -335,7 +335,7 @@ body, footer, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .section-background-1 {
-  background-color: lighten(@brand-primary, 50%);
+  background-color: lighten(@brand-primary, 70%);
 }
 
 .section-background-2 {
@@ -349,8 +349,26 @@ body, footer, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .navbar-default .navbar-brand:hover  {
   color: lighten(@brand-primary, 40%);
+
 }
 
 .morea-img-hover:hover {
     border: 1px solid @brand-primary;
+}
+
+.navbar-default {
+  border-bottom: 1px solid @brand-primary;
+}
+
+.thumbnail {
+  border: 2px solid @thumbnail-border;
+}
+
+a.thumbnail:hover {
+  background: darken(@thumbnail-bg, 5%);
+  text-decoration: none;
+}
+
+a.thumbnail {
+  color: @text-color;
 }

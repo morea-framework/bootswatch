@@ -6852,3 +6852,13 @@ h6,
 .morea-img-hover:hover {
   border: 1px solid #7a8288;
 }
+.thumbnail {
+  border: 2px solid #0c0d0e;
+}
+a.thumbnail:hover {
+  background: #3e444c;
+  text-decoration: none;
+}
+a.thumbnail {
+  color: #c8c8c8;
+}

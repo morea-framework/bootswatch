@@ -6378,3 +6378,13 @@ h6,
 .morea-img-hover:hover {
   border: 1px solid #dd4814;
 }
+.thumbnail {
+  border: 2px solid #dddddd;
+}
+a.thumbnail:hover {
+  background: #f2f2f2;
+  text-decoration: none;
+}
+a.thumbnail {
+  color: #333333;
+}

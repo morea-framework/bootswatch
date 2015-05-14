@@ -6587,7 +6587,7 @@ h6,
   text-align: center;
 }
 .section-background-1 {
-  background-color: #aabdd1;
+  background-color: #ecf1f5;
 }
 .section-background-2 {
   background-color: #ffffff;
@@ -6600,4 +6600,14 @@ h6,
 }
 .morea-img-hover:hover {
   border: 1px solid #2c3e50;
+}
+.thumbnail {
+  border: 2px solid #ecf0f1;
+}
+a.thumbnail:hover {
+  background: #f2f2f2;
+  text-decoration: none;
+}
+a.thumbnail {
+  color: #2c3e50;
 }
