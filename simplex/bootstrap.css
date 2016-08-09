@@ -6453,7 +6453,7 @@ label {
   border-color: #dddddd;
 }
 body {
-  padding-top: 60px;
+  padding-top: 41px;
   /* Move body of page below navbar. */
 }
 h1,
@@ -6504,5 +6504,23 @@ a.thumbnail:hover {
   text-decoration: none;
 }
 a.thumbnail {
+  color: #777777;
+}
+/* For mysterious reasons, bootstrap sets this to 0px. 10px is better. */
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 10px;
+}
+.breadcrumb-bar {
+  background-color: #feebe9;
+}
+.breadcrumb {
+  background-color: #feebe9;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+.breadcrumb > .active {
   color: #777777;
 }

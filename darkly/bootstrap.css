@@ -6636,3 +6636,21 @@ a.thumbnail:hover {
 a.thumbnail {
   color: #ffffff;
 }
+/* For mysterious reasons, bootstrap sets this to 0px. 10px is better. */
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 10px;
+}
+.breadcrumb-bar {
+  background-color: #5080b3;
+}
+.breadcrumb {
+  background-color: #5080b3;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+.breadcrumb > .active {
+  color: #ffffff;
+}

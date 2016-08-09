@@ -6804,7 +6804,7 @@ a.list-group-item-danger.active:focus {
   border-color: #000;
 }
 body {
-  padding-top: 60px;
+  padding-top: 52px;
   /* Move body of page below navbar. */
 }
 h1,
@@ -6860,5 +6860,32 @@ a.thumbnail:hover {
   text-decoration: none;
 }
 a.thumbnail {
+  color: #c8c8c8;
+}
+/* For mysterious reasons, bootstrap sets this to 0px. 10px is better. */
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 10px;
+}
+.breadcrumb-bar {
+  /* background-color: lighten(@brand-primary, 25%); */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#484e55), color-stop(60%, #3a3f44), to(#313539));
+  background-image: -webkit-linear-gradient(#484e55, #3a3f44 60%, #313539);
+  background-image: -o-linear-gradient(#484e55, #3a3f44 60%, #313539);
+  background-image: linear-gradient(#484e55, #3a3f44 60%, #313539);
+}
+.breadcrumb {
+  /* background-color: lighten(@brand-primary, 25%); */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#484e55), color-stop(60%, #3a3f44), to(#313539));
+  background-image: -webkit-linear-gradient(#484e55, #3a3f44 60%, #313539);
+  background-image: -o-linear-gradient(#484e55, #3a3f44 60%, #313539);
+  background-image: linear-gradient(#484e55, #3a3f44 60%, #313539);
+  margin-bottom: 0px;
+  padding-left: 0px;
+  border: 0px;
+}
+.breadcrumb > .active {
   color: #c8c8c8;
 }

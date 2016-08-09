@@ -6475,7 +6475,7 @@ input:focus,
   color: #98978b;
 }
 body {
-  padding-top: 60px;
+  padding-top: 63px;
   /* Move body of page below navbar. */
 }
 h1,
@@ -6526,5 +6526,24 @@ a.thumbnail:hover {
   text-decoration: none;
 }
 a.thumbnail {
+  color: #3e3f3a;
+}
+/* For mysterious reasons, bootstrap sets this to 0px. 10px is better. */
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 10px;
+}
+.breadcrumb-bar {
+  background-color: #bad0e6;
+}
+.breadcrumb {
+  background-color: #bad0e6;
+  border-color: #bad0e6;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+.breadcrumb > .active {
   color: #3e3f3a;
 }

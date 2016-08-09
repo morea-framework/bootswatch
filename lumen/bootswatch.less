@@ -483,7 +483,7 @@ a.list-group-item {
 // Morea customizations =========================================================
 
 body {
-  padding-top: 60px;  /* Move body of page below navbar. */
+  padding-top: 54px;  /* Move body of page below navbar. */
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -535,5 +535,24 @@ a.thumbnail:hover {
 }
 
 a.thumbnail {
+  color: @text-color;
+}
+
+/* For mysterious reasons, bootstrap sets this to 0px. 10px is better. */
+ul ul, ol ul, ul ol, ol ol {
+  margin-bottom: 10px;
+}
+
+.breadcrumb-bar {
+  background-color: #f8f8f8;
+}
+.breadcrumb {
+  background-color: #f8f8f8;
+  border-color: #f8f8f8;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+.breadcrumb > .active {
   color: @text-color;
 }

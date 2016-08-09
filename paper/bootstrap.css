@@ -6831,7 +6831,7 @@ select.form-control:focus {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 body {
-  padding-top: 60px;
+  padding-top: 64px;
   /* Move body of page below navbar. */
 }
 h1,
@@ -6879,5 +6879,23 @@ a.thumbnail:hover {
   text-decoration: none;
 }
 a.thumbnail {
+  color: #666666;
+}
+/* For mysterious reasons, bootstrap sets this to 0px. 10px is better. */
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 10px;
+}
+.breadcrumb-bar {
+  background-color: #cae6fc;
+}
+.breadcrumb {
+  background-color: #cae6fc;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+.breadcrumb > .active {
   color: #666666;
 }

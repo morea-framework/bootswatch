@@ -6634,7 +6634,7 @@ input[type="checkbox"] {
   color: #222222;
 }
 body {
-  padding-top: 60px;
+  padding-top: 45px;
   /* Move body of page below navbar. */
 }
 h1,
@@ -6685,5 +6685,25 @@ a.thumbnail:hover {
   text-decoration: none;
 }
 a.thumbnail {
+  color: #222222;
+}
+/* For mysterious reasons, bootstrap sets this to 0px. 10px is better. */
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 10px;
+}
+.breadcrumb-bar {
+  background-color: #cccccc;
+}
+.breadcrumb {
+  background-color: #cccccc;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  font-size: 12px;
+  border: 0px;
+}
+.breadcrumb > .active {
   color: #222222;
 }

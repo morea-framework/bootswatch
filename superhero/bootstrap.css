@@ -6551,7 +6551,7 @@ a.list-group-item-danger.active:focus {
   border: none;
 }
 body {
-  padding-top: 60px;
+  padding-top: 40px;
   /* Move body of page below navbar. */
 }
 h1,
@@ -6599,5 +6599,24 @@ a.thumbnail:hover {
   text-decoration: none;
 }
 a.thumbnail {
+  color: #ebebeb;
+}
+/* For mysterious reasons, bootstrap sets this to 0px. 10px is better. */
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 10px;
+}
+.breadcrumb-bar {
+  background-color: #43505d;
+}
+.breadcrumb {
+  background-color: #43505d;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  font-size: 12px;
+}
+.breadcrumb > .active {
   color: #ebebeb;
 }

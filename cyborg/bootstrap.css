@@ -6466,7 +6466,7 @@ a.list-group-item-danger.active:focus {
   color: #fff;
 }
 body {
-  padding-top: 60px;
+  padding-top: 50px;
   /* Move body of page below navbar. */
 }
 h1,
@@ -6495,7 +6495,7 @@ h6,
   color: #bbbbbb;
 }
 .section-background-1 {
-  background-color: #3fa9da;
+  background-color: #464646;
 }
 .section-background-2 {
   background-color: #060606;
@@ -6518,5 +6518,23 @@ a.thumbnail:hover {
   border: 2px solid #2180ac;
 }
 a.thumbnail {
+  color: #888888;
+}
+/* For mysterious reasons, bootstrap sets this to 0px. 10px is better. */
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 10px;
+}
+.breadcrumb-bar {
+  background-color: #464646;
+}
+.breadcrumb {
+  background-color: #464646;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+.breadcrumb > .active {
   color: #888888;
 }
